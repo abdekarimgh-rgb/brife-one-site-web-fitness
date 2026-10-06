@@ -190,6 +190,11 @@ button:focus-visible {
   border-radius: 50%;
 }
 
+.logo img{
+    width: 50px;
+    padding-bottom: 20px;
+}
+
 .menu {
   display: flex;
   gap: 32px;
@@ -545,4 +550,28 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+
+/* contact */
+
+.title-contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.title-contact h1{
+    color:black;
+    font-size: 50px;
+    text-shadow: 50px -14px 0px #FF6B2C;
+}
+
+.contact {
+    display: flex;
+    margin: 5% 20%;
+}
+.informations{
+    box-shadow: -10px 10px 5px black;
+    background: white;
+    padding: 100px;
 }

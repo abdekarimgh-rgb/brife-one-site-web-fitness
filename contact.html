@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +16,47 @@
 
     <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
-    
+    <header class="en-tete">
+        <div class="conteneur en-tete-contenu">
+
+            <a href="Accueil.html" class="logo"><img src="img/fin_logo-removebg.png" alt="logo">Élan Fitness</a>
+
+            <nav aria-label="Navigation principale">
+                <ul class="menu">
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="propos.html">À propos</a></li>
+                    <li><a href="Programmes.html">Programmes</a></li>
+                    <li><a href="contact.html" class="lien-actif">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <div class="title-contact">
+            <h1>Contactez-nous</h1>
+        </div>
+    <section class="contact">
+        <div class="info">
+            <p>
+                Contactez-nous dès aujourd'hui pour planifier votre première
+                séance d'évaluation ou poser toutes vos questions.
+            </p>
+            <p>Nous sommes a votre ecoute!</p>
+        </div>
+        <form class="informations">
+            <label for="Nom">Nom:</label><br>
+            <input type="text" name="Nom" id="Noms">
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="emails">
+            <label for="tele">Telephone:</label><br>
+            <input type="tel" name="tele" id="teles">
+            <label for="sujet">Sujet:</label><br>
+            <input type="text" name="sujet" id="sujets">
+            <label for="message:">Votre message:</label><br>
+            <input type="text" name="message" id="messages">
+        </form>
+    </section>
 </body>
+
 </html>
