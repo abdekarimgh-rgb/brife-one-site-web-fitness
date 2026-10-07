@@ -618,6 +618,9 @@ button:focus-visible {
 }
 .informations textarea{
   padding-right: 16px;
+  resize: vertical;
+  max-height: 60px;
+  
 }
 
 .submit {
