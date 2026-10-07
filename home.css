@@ -624,6 +624,7 @@ button:focus-visible {
 }
 
 .submit {
+  display: block;
   margin: 10px 0;
   background: #ff6b2c;
 }
