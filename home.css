@@ -590,6 +590,10 @@ button:focus-visible {
   font-size: x-large;
 }
 
+.info ul a:hover{
+  color: #ff6b2c;
+}
+
 .informations {
   box-shadow: -5px 5px 15px #ff6b2c;
   background: white;
