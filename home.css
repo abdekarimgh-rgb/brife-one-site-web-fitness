@@ -619,5 +619,21 @@ button:focus-visible {
   }
 }
 @media (max-width: 767px){
-  head
+  body{
+    width: 100vh;
+  }
+  .menu{
+    width: 100%;
+    word-wrap: normal;
+    align-items: center;
+    
+  }
+  .title-contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .contact{
+    display: inline-block;
+  }
 }
