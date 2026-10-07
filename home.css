@@ -110,6 +110,10 @@ button:focus-visible {
   background-color: #f05817;
 }
 
+.carte.formule:hover{
+  box-shadow: 0 0 8px #ff6b2c;
+}
+
 .bouton-secondaire {
   background-color: #ffffff;
   border: 1px solid #0f1b2d;
@@ -131,6 +135,11 @@ button:focus-visible {
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(15, 27, 45, 0.08);
+}
+
+.carte.carte-programme:hover{
+  transform: scale(1.05);
+  box-shadow: -5px 5px 10px #ff6b2c;
 }
 
 .icone {
