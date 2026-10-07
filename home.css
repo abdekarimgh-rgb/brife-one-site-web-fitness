@@ -559,7 +559,7 @@ button:focus-visible {
 .title-contact {
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 .title-contact h1 {
@@ -570,7 +570,7 @@ button:focus-visible {
 
 .contact {
   display: flex;
-  margin: 5% 20%;
+  margin: 6% 20%;
 }
 .info {
   margin: 20px;
@@ -607,4 +607,17 @@ button:focus-visible {
 }
 .submit:hover {
   background-color: #ea5717;
+}
+
+@media (min-width: 768px ) and (max-width: 1023px){
+  body{
+    width: 100%;
+  }
+  .contact{
+    justify-content: center;
+    margin: 6% 10%;
+  }
+}
+@media (max-width: 767px){
+  head
 }
