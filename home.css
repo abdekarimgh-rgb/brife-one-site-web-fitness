@@ -717,6 +717,7 @@ button:focus-visible {
   justify-content: center;
 }
 .motivation{
+  display: flex;
   margin-top: 20px;
   background-color: #ff6b2c;
 }
@@ -729,4 +730,11 @@ button:focus-visible {
 
 .word-motivation h1{
   color: rgb(0, 0, 0);
+}
+
+.word-motivation pre h2{
+  display: flex;
+  align-self: center;
+  font-size: xx-large;
+  margin: 0;
 }
