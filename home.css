@@ -766,22 +766,28 @@ button:focus-visible {
 
 .this-content {
   display: flex;
+  justify-content: space-around;
 }
 
 .left {
   background-color: #0f1b2d;
   flex: 2;
-  height: 200px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px 60px;
 }
 
 .right {
   background-color: #ff6b2c;
   flex: 1;
-  height: 200px;
+  
 
+}
+
+.contenu-left{
+  width: 70%;
 }
 
 .the-best {
@@ -814,10 +820,23 @@ button:focus-visible {
 }
 
 .motivation h1{
+  padding: 10px;
   color: #fff;
   font-size: 60px;
 }
 
 .motivation p{
+  color: #fff;
+  padding: 10px 0 15px 0;
+  display: flex;
+  text-align: center;
+}
+
+.statistique-left{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.statistique-left h5{
   color: #fff;
 }
