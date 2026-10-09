@@ -633,6 +633,10 @@ button:focus-visible {
 
 .submit {
   margin: 10px 0;
+  border: none;
+  width: 90px;
+  height: 25px;
+  border-radius: 5px;
   background: #ff6b2c;
   display: block;
 }
@@ -669,7 +673,9 @@ button:focus-visible {
     width: 100vh;
     height: inherit;
   }
-
+  .conteneur.apropos-contenu{
+    flex-direction: column;
+  }
   .menu {
     width: 100%;
     word-wrap: normal;
