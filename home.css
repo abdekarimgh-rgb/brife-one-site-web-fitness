@@ -662,7 +662,8 @@ button:focus-visible {
     flex-direction: column;
     margin: 6% 20%;
   }
-  .informations{
+
+  .informations {
     display: block;
     margin: auto auto;
   }
@@ -673,9 +674,11 @@ button:focus-visible {
     width: 100vh;
     height: inherit;
   }
-  .conteneur.apropos-contenu{
+
+  .conteneur.apropos-contenu {
     flex-direction: column;
   }
+
   .menu {
     width: 100%;
     word-wrap: normal;
@@ -717,53 +720,104 @@ button:focus-visible {
 
 /* page payaiment */
 
-.Offre h4 {
+/* .Offre h4 {
   background-color: #ff6b2c;
   display: flex;
   justify-content: center;
-}
-.motivation{
+} */
+
+.section-login {
+  /*  background-color: #0f1b2d; */
   display: flex;
-  justify-content: space-around;
-  background-color: #121e31;
+  justify-content: flex-end;
 }
 
-.contenu-motivation{
- display: flex;
-  justify-content: space-around;
+.login {
+  width: 230px;
+  display: flex;
+  ma
+}
+
+.login button {
+  width: 90px;
+  height: 30px;
+  margin: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.Sign-up,
+.Sign-in {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Sign-up:hover,
+.Sign-in:hover{
+  transform: scale(1.1);
+}
+
+.Sign-up {
+  background-color: #ff6b2c;
+  color: white;
+}
+
+.this-content {
+  display: flex;
+}
+
+.left {
+  background-color: #0f1b2d;
+  flex: 2;
+  height: 200px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 30px;
-  padding: 30px 5%;
+}
+
+.right {
+  background-color: #ff6b2c;
+  flex: 1;
+  height: 200px;
 
 }
 
-
-.word-motivation h1{
-  color: white;
-  text-align: center;
-}
-
-.word-motivation h2{
-  color: white;
-  text-align: center;
-  font-size: xx-large;
-  margin: 0;
-}
-
-.centenu{
-  background-image: url(img/imge.motivation.webp);
+.the-best {
+  padding: 15px;
+  width: auto;
+  height: 40px;
+  background-color: #f3f4f625;
+  border-radius: 18px;
   display: flex;
-  flex-direction: column;
-  
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.the-best button{
+  display: inline;
+  background-color: #ff6b2c;
+  border-radius: 15px;
+  padding: 5px 15px;
+  border: none;
 }
 
-.form-gratuit{
-  width: 300px;
-  background-color: #94a3b8;
-  padding: 50px 50px ;
-  
+.the-best button:hover{
+  transform: scale(1.1);
 }
 
-.form-gratuit input{
-  display:block ;
+.the-best p{
+  color: #fff;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.motivation h1{
+  color: #fff;
+  font-size: 60px;
+}
+
+.motivation p{
+  color: #fff;
 }
