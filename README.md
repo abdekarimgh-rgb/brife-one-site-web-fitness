@@ -35,7 +35,11 @@ _start les fichiers dans le navigateur
  _ Voir le site : https://abdekarimgh-rgb.github.io/brife-one-site-web-fitness/
  _ Repository GitHub : https://github.com/abdekarimgh-rgb/brife-one-site-web-fitness
 
+ ## Auteur:
+_ youcode
+
  ## Date du projet:
 
- _ 06/10/26
+ _09 Octobre 2026.
+
 
